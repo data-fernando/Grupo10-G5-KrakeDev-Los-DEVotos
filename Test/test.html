@@ -4,13 +4,19 @@
         <script src="utilitarios.js"></script>
         <script src="serviciosTest.js"></script>
         <script src="test.js"></script>
+        <link rel="stylesheet" href="estilos.css">
+
     </head>
     <body>
-        <h2>Ingrsa tu nombre</h2>
+        <h2>Ingresa tu nombre</h2>
         <input type="text" id="txtNombre"/>
-        <h2>Ingrsa tu apellido</h2>
+        <h2>Ingresa tu apellido</h2>
         <input type="text" id="txtApellido"/>
-        <input type="button" value="presioname" onclick="saludar();"/>
+        <!-- <input type="button" value="presioname" onclick="saludar();"/> -->
+        <input type="button" value="presioname" onclick="probarFuncion();"/>
+        <h3>Resultado: </h3>
+        <br>
+        <h4 id="lblResultado"></h4>
     </body>
 
 </html>
